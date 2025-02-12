@@ -1,0 +1,11 @@
+# add the following to the .gitignore file
+# Ignore the following directories
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# CASA
+CASA0018/
+
+# IOS
+.DS_Store

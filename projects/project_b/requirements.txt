@@ -1,0 +1,21 @@
+# A list of dependencies for the current project
+
+# The first way, the programme will find the latest version automatically
+# notebook
+# pandas
+# numpy
+# torch
+# torchvision
+# torchaudio
+# tensorflow
+# matplotlib
+
+# Second method, specifying the Version
+notebook==7.3.2
+pandas==2.2.3
+numpy==2.0.2
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+tensorflow==2.18.0
+matplotlib==3.9.4

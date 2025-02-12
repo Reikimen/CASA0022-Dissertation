@@ -1,0 +1,22 @@
+# 事实上，Project-A 没有调用以下参数，也没有设置数据集路径，只是为了演示配置文件的格式
+# 模型训练参数
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+# 数据集路径，暂时没有数据集管理功能，需要手动配置
+data:
+  train_dataset: "/workspace/project_b/data/train.csv"
+  test_dataset: "/workspace/project_b/data/test.csv"
+  output_dir: "/workspace/project_b/results"
+
+# 系统配置
+system:
+  use_gpu: true
+  num_workers: 4
+
+# 其他自定义配置
+custom_settings:
+  experiment_name: "baseline_model"
+  seed: 42

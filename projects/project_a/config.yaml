@@ -1,0 +1,22 @@
+# In fact, Project-A does not call the following parameters, nor does it set the dataset path, just to demonstrate the format of the configuration file
+# Model Training Parameter
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+# Dataset path, there is no dataset management function, you need to configure it manually.
+data:
+  train_dataset: "/workspace/project_a/data/train.csv"
+  test_dataset: "/workspace/project_a/data/test.csv"
+  output_dir: "/workspace/project_a/results"
+
+# System Configuration
+system:
+  use_gpu: true
+  num_workers: 4
+
+# Other custom configurations
+custom_settings:
+  experiment_name: "baseline_model"
+  seed: 42
