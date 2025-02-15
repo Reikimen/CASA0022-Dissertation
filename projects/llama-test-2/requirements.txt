@@ -1,0 +1,17 @@
+# Second method, specifying the Version
+notebook==7.3.2
+pandas==2.2.3
+numpy==2.0.2
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+tensorflow==2.18.0
+matplotlib==3.9.4
+
+# 新增LLaMA和LoRA相关依赖
+accelerate
+bitsandbytes
+transformers
+peft
+sentencepiece
+scipy

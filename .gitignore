@@ -9,3 +9,9 @@ CASA0018/
 
 # IOS
 .DS_Store
+
+# Security
+Specify-custom-URL-LLAMA.txt
+
+# models
+models/
